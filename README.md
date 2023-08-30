@@ -15,7 +15,7 @@ Hey! Welcome to the Audio Library React-Django application. This is a audio Libr
  ```
  In order to start the development version of the AudioLib application, we need a virtual environment. Make sure you have [Python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) installed for the Django backend as well as [NodeJs](https://nodejs.org/en/download/current) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) for the React frontend. 
  
- Now in the same directory we need a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) in order to install backend specific dependencies. It is recommended to use the official [Python](https://www.python.org/downloads/) versionmonly instead of using one from third party python version managers ex : pyenv etc. This makes sure that the project runs smoothly.
+ Now in the same directory we need a [virtual environment](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/) in order to install backend specific dependencies. It is recommended to use the official [Python](https://www.python.org/downloads/) version only instead of using one from third party python version managers ex : pyenv etc. This makes sure that the project runs smoothly.
 
 **RUN following to start the backend server:**
  ```
