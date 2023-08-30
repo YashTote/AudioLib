@@ -54,9 +54,15 @@ npm run dev
 
 **Working of the Application**
 
-The application runs on a simple request response cycle. When the user clicks on `Upload` button the post request is sent to the Django Backend. The audio file is stored in the media repository and the metadata is stored in Database Table. In respose the required MetaData is sent to the frontend and displayed in the table.
+1. The application runs on a simple request response cycle. When the user clicks on `Upload` button the post request is sent to the Django Backend. The audio file is stored in the media repository and the metadata is stored in Database Table. In respose the required MetaData is sent to the frontend and displayed in the table.
 
-After clicking on the `Sync with the database` button, a GET request is sent to the backend and details about all the files present in the database is returned.
+2. After clicking on the `Sync with the database` button, a GET request is sent to the backend and details about all the files present in the database is returned.
 
-When user clicks `Download from the DB` a GET request is sent to the backend with the current file name. The django backend sends a attachment in response which then gets downloaded through browser. 
+3. When user clicks `Download from the DB` a GET request is sent to the backend with the current file name. The django backend sends a attachment in response which then gets downloaded through browser.
 
+**Why use React over native DJango HTML template?**
+1. Front-End Development Separation: Using React allows you to decouple the front-end development from the back-end. This separation can enable front-end and back-end teams to work more independently, iterate faster, and make updates without affecting the other part of the application.
+
+2. Performance: React's virtual DOM and efficient diffing algorithms help optimize rendering performance. This can result in faster updates to the UI, reduced network traffic, and better overall user experience. Like see how the after fetching database records renders the UI fairly quickly and does not trigger page reload.
+
+3. State Management: React provides tools for managing component state and global application state using libraries like Redux or Context API. This makes it easier to handle complex state interactions and data flows.
