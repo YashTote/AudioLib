@@ -32,7 +32,7 @@ Hey! Welcome to the Audio Library React-Django application. This is a audio Libr
  After the dependencies are sucessfully installed `cd django-backend` and run `python3 manage.py createsuperuser`, enter the necessary details in order to access the SQLite database admin panel. Now run `python3 manage.py runserver`. 
  
 > **Note**
-> Make sure your server runs on [localhost:8000](http://localhost:8000/) only. Failure to do this will cause dashboard to connect with the front end. Or else edit the fetch addresses in the react frontend to your custom version of django server.
+> Make sure your server runs on [localhost:8000](http://localhost:8000/) only. Failure to do this will cause dashboard to disconnect with the front end. Or else edit the fetch addresses in the react frontend to your custom version of django server.
  
  > [!NOTE]
  > If you face the _sqlite3() error head to [this](https://www.codethebest.com/python-package-errors/modulenotfounderror-no-module-named-sqlite3-solved/)
