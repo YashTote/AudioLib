@@ -25,7 +25,7 @@ urlpatterns = [
     
     path('admin/', admin.site.urls),
     path('fileupload/', views.upload_file, name='upload_file'),
-    path('fileupload/saveAudio//media/<str:location>/', views.get_one_file, name = 'get_one_file')
+    path('fileupload/django-backend//media/<str:location>/', views.get_one_file, name = 'get_one_file')
 ]
 
 if settings.DEBUG:

@@ -7,6 +7,10 @@ from datetime import date
 class FileDataHandle(models.Model):
     '''
     Django DB model to store the meta data in SQLite database.
+
+    The model does not store the audio file but infact stores the file location.
+
+    The audio files are stored inside Media folder of the Django App.
     '''
     file_name = models.CharField(max_length=40)
     file_type = models.CharField(max_length=10)
