@@ -1,0 +1,40 @@
+.audio-uploader {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .file-table {
+    width: 1200px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .file-table th, .file-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .file-table th {
+    background-color: #f2f2f2;
+  }
+      
+  .loader {
+    width: 28px;
+    height: 28px;
+    border: 5px solid #000000;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
